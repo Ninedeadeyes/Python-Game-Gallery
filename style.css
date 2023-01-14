@@ -73,6 +73,7 @@ a:hover {
     text-align: center;
     padding: 1em;
     font-family: 'Maven Pro', sans-serif;  
+    
 }
 
 .grid{
@@ -145,7 +146,7 @@ a:hover {
 
     .introduction{
         font-size:.6em; 
-
+    
     }
 
     .mainHead{
@@ -166,6 +167,36 @@ a:hover {
         font-size:.8em; 
     }
 }
+
+
+@media(max-width:480px){      /*Reponsive design for smaller tablet and large smartphones   */
+    
+    .introduction{
+        margin-left:100px; /*move to the left when screen is very small   */
+    }
+
+}
+
+
+@media(max-width:360px){      /*Reponsive design for smaller tablet and large smartphones   */
+    
+    .introduction{
+
+        margin-left:140px; /*move to the left when screen is very small   */
+    }
+}
+
+@media(max-width:320px){      /*Reponsive design for smaller tablet and large smartphones   */
+    
+    .introduction{
+
+        margin-left:200px; /*move to the left when screen is very small   */
+    }
+}
+
+
+
+
 
 #black{
     color: black;
