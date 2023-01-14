@@ -148,10 +148,6 @@ a:hover {
 
     }
 
-    .blue a:link {
-        color: blue;
-    }
-
     .mainHead{
         font-size:1.0em;
     }
@@ -159,7 +155,6 @@ a:hover {
     .link{
         font-size:1.0em;
     }
-
 
     .aboutMe{
 
@@ -180,3 +175,6 @@ a:hover {
     color: brown;
 }
 
+#positioning{
+    margin-left:70px;
+}
