@@ -57,11 +57,20 @@ a:hover {
     margin-left:10px;
 }
 
+.main-nav{
+    display:flex;
+    list-style:none;
+    font-size:1em;
+    width:130px;
+    margin:5px;
+}
+
 
 
 .link{
     font-size:1.2em;
     margin-right: 10px;
+    color:rgb(93, 55, 121);  /*Don't know why but in Avast Secure Browser it becomes blue */
 }
 
 .introduction{
@@ -207,5 +216,5 @@ a:hover {
 }
 
 #positioning{
-    margin-left:70px;
+    margin-left:180px;
 }
