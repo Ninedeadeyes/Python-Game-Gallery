@@ -159,7 +159,7 @@ a:hover {
     }
 
     .mainHead{
-        font-size:1.0em;
+        font-size:.8em;
     }
 
     .link{
@@ -183,6 +183,11 @@ a:hover {
     .introduction{
         margin-left:60px; /*move to the left when screen is very small   */
     }
+    
+    
+    .mainHead{
+        font-size:.6em;
+    }
 
 }
 
@@ -194,7 +199,14 @@ a:hover {
         margin-left:100px; /*move to the left when screen is very small   */
     }
     
+     .mainHead{
+        font-size:.8em;
+    }
+
+    
+    
     #positioning{
+        
     margin-left:140px;
     }
 }
