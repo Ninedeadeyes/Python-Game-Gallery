@@ -35,7 +35,7 @@ a:hover {
 .headContainer{
     display:flex;
     position : fixed;   /*stays in the same place even if the page is scrolled */
-    background-image: linear-gradient(to right, rgb(178, 155, 221), white , rgb(178, 155, 221));
+    background-image: linear-gradient(to right, rgb(197, 228, 237), white , rgb(197, 228, 237));
     height: 80px;
     align-items:center;    /*set the alignment of secondary axis (y) */ 
     Z-index: 2;              /* everything hides behinder the header   */
@@ -108,7 +108,7 @@ a:hover {
 .footer{
     display:flex;
     position : fixed;   /*stays in the same place even if the page is scrolled */
-    background-image: linear-gradient(to right, rgb(178, 155, 221), white , rgb(178, 155, 221));
+    background-image: linear-gradient(to right, rgb(197, 228, 237), white , rgb(197, 228, 237));
     justify-content: flex-start;   /*set the alignment of primary axis (x) */ 
     height: 100px;
     align-items:flex-start;    /*set the alignment of secondary axis (y) */ 
