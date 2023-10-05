@@ -216,6 +216,11 @@ a:hover {
         margin-left:80px; /*move to the left when screen is very small   */
     }
 
+        #positioning{
+        
+        margin-left:140px;
+        }
+
 }
 
 
