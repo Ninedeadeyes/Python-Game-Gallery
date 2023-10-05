@@ -137,11 +137,36 @@ a:hover {
    
 }
 
+
+#black{
+    color: black;
+}
+
+#brown {
+    color: brown;
+}
+
+#positioning{
+    margin-left:5px;
+}
+
+
 @viewport {
   width: 100vw; /*Sets the width of the actual viewport to the device width*/
 }
 
-@media(max-width:550px){      /*Reponsive design for smaller tablet and large smartphones   */
+
+@media(max-width:1000px){      /*Reponsive design for smaller tablet and large smartphones   */
+    
+
+    #positioning{
+        
+        margin-left:120px;
+        }
+
+}
+
+@media(max-width:650px){      /*Reponsive design for smaller tablet and large smartphones   */
     
     img{
         width: 480px;
@@ -163,7 +188,7 @@ a:hover {
     }
 
     .link{
-        font-size:1.0em;
+        font-size:.8em;
     }
 
     .aboutMe{
@@ -175,6 +200,13 @@ a:hover {
 
         font-size:.8em; 
     }
+
+    #positioning{
+        
+        margin-left:200px;
+        }
+
+
 }
 
 
@@ -183,11 +215,13 @@ a:hover {
     .introduction{
         margin-left:90px; /*move to the left when screen is very small   */
     }
-    
-    
-    .mainHead{
-        font-size:.6em;
-    }
+
+
+
+    #positioning{
+        
+        margin-left:250px;
+        }
 
 }
 
@@ -203,23 +237,23 @@ a:hover {
         font-size:.8em;
     }
 
-    
-    
     #positioning{
         
-    margin-left:100px;
-    }
+        margin-left:270px;
+        }
+    
+
 }
 
 @media(max-width:320px){      /*Reponsive design for smaller tablet and large smartphones   */
     
     .introduction{
 
-        margin-left:190px; /*move to the left when screen is very small   */
+        margin-left:300px; /*move to the left when screen is very small   */
     }
     
     #positioning{
-    margin-left:80px;
+    margin-left:350px;
     }
 
 }
@@ -227,15 +261,3 @@ a:hover {
 
 
 
-
-#black{
-    color: black;
-}
-
-#brown {
-    color: brown;
-}
-
-#positioning{
-    margin-left:75px;
-}
