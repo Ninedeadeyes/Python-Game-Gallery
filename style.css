@@ -237,12 +237,6 @@ a:hover {
         font-size:.8em;
     }
 
-    #positioning{
-        
-        margin-left:230px;
-        }
-    
-
 }
 
 @media(max-width:320px){      /*Reponsive design for smaller tablet and large smartphones   */
@@ -252,10 +246,6 @@ a:hover {
         margin-left:300px; /*move to the left when screen is very small   */
     }
     
-    #positioning{
-    margin-left:250px;
-    }
-
 }
 
 
