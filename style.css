@@ -213,15 +213,8 @@ a:hover {
 @media(max-width:480px){      /*Reponsive design for smaller tablet and large smartphones   */
     
     .introduction{
-        margin-left:90px; /*move to the left when screen is very small   */
+        margin-left:80px; /*move to the left when screen is very small   */
     }
-
-
-
-    #positioning{
-        
-        margin-left:200px;
-        }
 
 }
 
@@ -230,7 +223,7 @@ a:hover {
     
     .introduction{
 
-        margin-left:130px; /*move to the left when screen is very small   */
+        margin-left:100px; /*move to the left when screen is very small   */
     }
     
      .mainHead{
@@ -243,7 +236,7 @@ a:hover {
     
     .introduction{
 
-        margin-left:300px; /*move to the left when screen is very small   */
+        margin-left:200px; /*move to the left when screen is very small   */
     }
     
 }
