@@ -78,6 +78,7 @@ a:hover {
     grid-column: 1/4;       /* the number depends on grid-template columns having 3 columns means there are 4 lines for the entire line */
     font-size: 20px;
     margin-top: 80px;    /* because of header   */
+    margin-left:20px;
     border-radius:1em;
     text-align: center;
     padding: 1em;
@@ -147,7 +148,7 @@ a:hover {
 }
 
 #positioning{
-    margin-left:5px;
+    margin-left:0px;
 }
 
 
@@ -180,6 +181,7 @@ a:hover {
 
     .introduction{
         font-size:.6em; 
+        margin-left:0px;
     
     }
 
